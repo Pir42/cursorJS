@@ -1,0 +1,39 @@
+
+h2 {
+    font-size: 2.3em;
+    color: #cc208e
+}
+h3 {
+    color: #6713D2;
+    margin-top: 2em;
+}
+h1 {
+    font-size: 4em;
+    letter-spacing: -4px;
+    background: -webkit-linear-gradient(35deg, #cc208e, #6713D2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+li {
+    margin-bottom: 20px;
+}
+
+ul li ul li {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: .8em;
+}
+a {
+    color: #cc208e;
+}
+a:hover {
+    color: #cc208e;    
+}
+#cursor div {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+}
