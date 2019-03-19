@@ -1,8 +1,8 @@
 class Cursor {
     
     constructor(ArrayElement) {
-        this.x = 500;
-        this.y = 200;
+        this.x = 0;
+        this.y = 0;
         this.ArrayElement = ArrayElement;
         this.DOMElements = [];
         this.init();
@@ -64,12 +64,10 @@ class Cursor {
                 circle.style.transition = "transform " + item.animate.speed + "s " + item.animate.speedCurve + "";
             }
 
-
             divCursor.appendChild(circle);
 
             this.DOMElements.push(circle);
         }) 
-
 
         document.body.appendChild(divCursor);
 
